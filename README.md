@@ -1,14 +1,14 @@
 # RAG (Retrieval Augmented Generation) Application for EDU-TECH
 
 ## Overview
-This application is a sophisticated document query system that implements RAG (Retrieval Augmented Generation) architecture. It allows users to upload PDF documents and ask questions about their content, receiving AI-generated responses based on the document's content.
+This application is a sophisticated document query system that implements Hybrid RAG (Hybrid Retrieval Augmented Generation) architecture. It allows users to upload PDF documents and ask questions about their content, receiving AI-generated responses based on the document's content.
 
 ## Technologies Used
 
 ### Core Technologies
 - **Streamlit**: Front-end framework for creating the web interface
 - **LangChain**: Framework for building LLM applications
-- **Groq**: LLM provider using the llama-3.1-70b-versatile model
+- **Groq**: LLM provider using the llama-3.2-11b-text-preview model
 - **Google Generative AI**: Used for generating embeddings
 - **ChromaDB**: Vector store for document embeddings
 - **Python**: Primary programming language
@@ -111,7 +111,3 @@ Required environment variables:
 - No permanent storage of uploaded files
 
 This application represents a modern approach to document question-answering, combining multiple retrieval methods with state-of-the-art language models to provide accurate and contextual responses to user queries.
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
