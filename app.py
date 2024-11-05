@@ -77,7 +77,7 @@ def setup_retrieval_chain(vectors, chunks):
     try:
         llm = ChatGroq(
             groq_api_key=groq_api_key,
-            model_name="Llama3-8b-8192"
+            model_name="llama-3.2-11b-text-preview"
         )
         
         document_chain = create_stuff_documents_chain(llm, prompt)
